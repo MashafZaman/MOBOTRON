@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOBOTRON: Online Mobile Store</title>
+    
+<!-- Font Awesome -->
+<script 
+    src="https://kit.fontawesome.com/f804266360.js" 
+    crossorigin="anonymous">
+</script>
+<!-- Custom CSS -->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <div class="nav-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </div>
+            <div class="logo">
+                <img src="./images/logo.png" alt="store logo"/>
+            </div>
+            <div class="wishlist-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-heart"></i>
+                </span>
+                <div class="wishlist-items">0</div>
+            </div>
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+    <!-- end of NAVBAR -->
+    <!-- HERO -->
+    <section class="hero">
+        <dov class="banner">
+            <h1 class="banner-title">One-Stop-Shop for Mobile Phones</h1>
+            <a href="#products">
+                <button class="banner-btn">Start Shopping</button>
+            </a>
+        </dov>
+    </section>
+    <!-- end of HERO -->
+    <!-- PRODUCTS -->
+    <section id="products">
+        <div class="section-title">
+            <h2 style="color:var(--mainText)">Our Products</h2>
+        </div>
+        <div class="products-center">
+<!--
+Single Product Code -- We donot need this as it is already implemented in app.js
+            <article class="product">
+                <div class="img-container">
+                    <img src="./images/product-1.jpeg" alt="Product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fa fa-shopping-cart"></i>
+                        Add to Cart
+                    </button>
+                    <button class="wish-btn" data-id="1">
+                        <i class="far fa-heart"></i>
+                        Add to Wishlist
+                    </button>
+                </div>
+                <h3>Queen Bed</h3>
+                <h4>$156</h4>
+            </article>
+end of Single Product 
+-->
+        </div>
+    </section>
+    <!-- end of PRODUCTS -->
+    
+    <!-- CART -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- Cart Item -- Already added in app.js
+                <div class="cart-item">
+                </div>
+                end of Cart Item -->
+            </div>
+            <div class="cart-footer">
+                <h3>Cart Total: Rs. <span class="cart-total">0</span> </h3>
+                <button class="clear-cart banner-btn">Clear Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of CART -->
+
+    <!-- WISHLIST -->
+    <div class="wishlist-overlay">
+        <div class="wishlist">
+            <span class="close-wishlist">
+                <i class="fas fa-window-close"></i> 
+            </span>
+            <h2>Your Wishlist</h2>
+            <div class="wishlist-content">
+            </div>
+            <div class="wishlist-footer">
+                <button class="clear-wishlist banner-wishlist-btn">Clear Wishlist</button>
+                <button class="add-all-to-cart banner-wishlist-btn">Add All to Cart</button>
+            </div>
+        </div>
+    </div>
+    <!-- end of WISHLIST -->
+
+    <!-- Contentful port -->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script> 
+
+    <!-- App.js, Business Logic layer -->
+    <script src="app.js"></script>
+</body>
+</html>

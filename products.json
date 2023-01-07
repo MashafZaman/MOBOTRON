@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Google Pixel 6",
+        "price": 140000.0,
+        "image": { "fields": { "file": { "url": "./images/google-pixel-6.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Apple iPhone 13 Pro",
+        "price": 271999.0,
+        "image": { "fields": { "file": { "url": "./images/apple-iphone-13-pro.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Apple iPhone 13 Mini",
+        "price": 177240.0,
+        "image": { "fields": { "file": { "url": "./images/apple-iphone-13-mini.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Samsung Galaxy Note 20 Ultra",
+        "price": 219999.0,
+        "image": { "fields": { "file": { "url": "./images/samsung-galaxy-note-20-ultra.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Samsung Galaxy Z Flip 3",
+        "price": 199999.0,
+        "image": { "fields": { "file": { "url": "./images/samsung-galaxy-z-flip-3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "TCL 20S",
+        "price": 45999.0,
+        "image": { "fields": { "file": { "url": "./images/tcl-20s.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Google Pixel 5A",
+        "price": 84999.0,
+        "image": { "fields": { "file": { "url": "./images/google-pixel-5a.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Samsung Galaxy Z Fold 3",
+        "price": 314999.0,
+        "image": { "fields": { "file": { "url": "./images/samsung-galaxy-z-fold-3.jpg" } } }
+      }
+    }
+  ]
+}
